@@ -1,0 +1,15 @@
+exposures:
+  - name: Executive_dashboard
+    label: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://6289185f.us1a.app.preset.io/superset/dashboard/8/?native_filters_key=w8L3DfIN16I
+    description: Executive Dashboard about Airbnb listings
+
+
+    depends_on:
+      - ref('mart_fullmoon_reviews')
+
+    owner:
+      name: Gérôme Leclercq
+      email: grme.leclercq@yahoo.com
